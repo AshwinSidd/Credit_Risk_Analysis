@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Analysis Overview
-In this analysis we employed different techniques to train and evaluate models with unbalanced classes using *imbalanced-learn* and *scikit-learn libraries* to build and evaluate models using resampling. For a credit card credit dataset we did oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we used the SMOTEENN algorithm after which we compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+In this analysis we employed different techniques to train and evaluate Supervised Machine Learning models with unbalanced classes using *imbalanced-learn* and *scikit-learn libraries*. For a credit card credit dataset we did oversampling of the data using the RandomOverSampler and SMOTE algorithms, and undersampling the data using the ClusterCentroids algorithm. Then, we used the SMOTEENN algorithm after which we compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
 ## Results
 ### The RandomOversampler Model
